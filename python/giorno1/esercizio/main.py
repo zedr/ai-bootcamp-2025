@@ -8,6 +8,7 @@ assert bool(0)
 assert False == True
 assert True is False
 assert True != True
+assert None is False
 
 # Faccio alcune operazioni aritmetiche sui numeri interi
 bar = 0
@@ -24,6 +25,9 @@ result -= 1
 
 # Controllo che il valore non sia negativo
 assert result < 0
+
+# Concateno le stringhe
+message = "hello" + b"world"
 
 # Creo una lista e la estendo
 li1 = [1, 2]
