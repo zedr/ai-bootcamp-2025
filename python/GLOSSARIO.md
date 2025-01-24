@@ -1,0 +1,28 @@
+ - Algoritmo: Una sequenza di passaggi per risolvere un problema o completare un compito.
+ - Argomento: in Python, un oggetto fornito a una funzione quando viene chiamata, ovvero il suo Input.
+ - Assegnare: creare un nuovo Nome nel Namespace locale collegandolo ad un oggetto tramite l'operatore `=` .
+ - Blocco: Un gruppo di istruzioni indentate insieme per definire una specifica struttura di codice, come il corpo di un ciclo o di una funzione.
+ - Bug: Un errore o difetto nel codice che causa comportamenti non previsti o crash.
+ - Commento: Testo non eseguibile in un programma (indicato con `#`) usato per spiegare il codice.
+ - Compilatore: Un componente che, nel caso di cPython, traduce il codice sorgente in bytecode per essere interpretato.
+ - Condizionale: Un elemento sintattico come `if`, `elif` o `else` che controlla l'esecuzione del codice in base a determinate condizioni.
+ - Debugger: Uno strumento utilizzato per testare e correggere i programmi identificando e risolvendo errori.
+ - Dichiarazione: Un comando o altro elemento sintattico espresso mediante una parola chiave che non ritorna alcun risultato.
+ - Eccezione: Un errore che interrompe il normale flusso di un programma, gestibile con `try` ed `except`.
+ - Espressione: Codice che, una volta eseguito, viene valutato dall'Interprete Python e ritorna un risultato.
+ - Firma (Funzione): la sequenza di Argomenti semplici ed Argomenti chiave (se presenti) nella definizione di una funzione.
+ - Funzione: Un blocco di codice riutilizzabile che svolge un compito specifico, definito con la parola chiave `def`.
+ - Generatore: Un oggetto che genera un valore dinamicamente ed ad ogni iterazione.
+ - IDE (Ambiente di Sviluppo Integrato): Un'applicazione software per scrivere, testare e correggere il codice.
+ - Indentazione: Spazi iniziali in una riga di codice usati per definire blocchi in Python.
+ - Libreria: Una raccolta di codice in uno o più moduli che fornisce funzionalità aggiuntive.
+ - Ciclo: Una struttura di controllo, come `for` o `while`, che ripete un blocco di codice.
+ - Modulo: Un file contenente codice Python (di solito `.py`) che può essere importato in altri programmi.
+ - Name: L'equivalente di una variabile, ovvero il nome che diamo ad un oggetto che lo rende accessibile nel Scope corrente.
+ - Oggetto: Un'istanza di una classe, che rappresenta una struttura dati con comportamenti associati.
+ - Operatore: Un simbolo utilizzato per eseguire operazioni, come `+` per l'addizione o `==` per la comparazione.
+ - Parametro: Una variabile definita nella firma di una funzione che accetta valori in ingresso.
+ - Ricorsione: Una tecnica in cui una funzione richiama se stessa per risolvere parti più piccole di un problema.
+ - Return: Un'istruzione in una funzione che restituisce un risultato al chiamante.
+ - Scope: Il perimetro all'interno di un programma in cui un nome è accessibile.
+ 
