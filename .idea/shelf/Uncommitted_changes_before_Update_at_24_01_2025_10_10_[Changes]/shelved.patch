@@ -1,0 +1,251 @@
+Index: python/giorno2_3/esercizi/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/python/giorno2_3/esercizi/README.md b/python/giorno2_3/esercizi/README.md
+new file mode 100644
+--- /dev/null	(date 1737709714280)
++++ b/python/giorno2_3/esercizi/README.md	(date 1737709714280)
+@@ -0,0 +1,1 @@
++# Esercizi da fare per il giorno 29 gennaio
+\ No newline at end of file
+Index: python/giorno2_3/esercizi/classi/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/python/giorno2_3/esercizi/classi/main.py b/python/giorno2_3/esercizi/classi/main.py
+new file mode 100644
+--- /dev/null	(date 1737709714281)
++++ b/python/giorno2_3/esercizi/classi/main.py	(date 1737709714281)
+@@ -0,0 +1,17 @@
++class Country:
++    ...
++
++    @property
++    def pop(self):
++        """The total population of this country"""
++
++
++class Region:
++    ...
++
++
++class City:
++    """A city"""
++
++    def __init__(self, name, pop=None):
++        ...
+Index: python/giorno2_3/esercizi/classi/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/python/giorno2_3/esercizi/classi/README.md b/python/giorno2_3/esercizi/classi/README.md
+new file mode 100644
+--- /dev/null	(date 1737709714281)
++++ b/python/giorno2_3/esercizi/classi/README.md	(date 1737709714281)
+@@ -0,0 +1,4 @@
++# Esercizio
++Implementare tutte le classi richieste dal file [`tests.py`](tests.py).
++
++Scrivere il codice nel file [`main.py](main.py).
+\ No newline at end of file
+Index: python/giorno2_3/esercizi/classi/tests.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/python/giorno2_3/esercizi/classi/tests.py b/python/giorno2_3/esercizi/classi/tests.py
+new file mode 100644
+--- /dev/null	(date 1737709714281)
++++ b/python/giorno2_3/esercizi/classi/tests.py	(date 1737709714281)
+@@ -0,0 +1,23 @@
++from main import Country, Region, City
++
++italy = Country("Italy")
++
++assert italy.name == "Italy"
++
++sicily = Region("Sicily")
++italy.add(sicily)
++
++sicily.add(City("Catania", pop=300_000))
++sicily.add(City("Palermo", pop=600_000))
++
++assert sicily.pop == 900_000
++
++calabria = Region("Calabria")
++calabria.add(City("Reggio Calabria", pop=170_000))
++
++italy.add(calabria)
++assert italy.pop == 1_170_000
++
++# La correttezza della risposta dipende ovviamente
++# dalla quantità e qualità di dati che abbiamo.
++assert italy.most_populuous_city.name == "Palermo"
+\ No newline at end of file
+Index: python/giorno2_3/esercizi/funzioni/crash.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/python/giorno2_3/esercizi/funzioni/crash.py b/python/giorno2_3/esercizi/funzioni/crash.py
+new file mode 100644
+--- /dev/null	(date 1737709714282)
++++ b/python/giorno2_3/esercizi/funzioni/crash.py	(date 1737709714282)
+@@ -0,0 +1,10 @@
++def factorial(n):
++    """Calculate the factorial of the given number"""
++    # FIXME: this code has a bug!
++    if n > 1:
++        return n * factorial(n)
++    else:
++        return 1
++
++
++assert factorial(5) == 120
+Index: python/giorno2_3/esercizi/funzioni/main.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/python/giorno2_3/esercizi/funzioni/main.py b/python/giorno2_3/esercizi/funzioni/main.py
+new file mode 100644
+--- /dev/null	(date 1737709714282)
++++ b/python/giorno2_3/esercizi/funzioni/main.py	(date 1737709714282)
+@@ -0,0 +1,4 @@
++# Scrivere il codice dell'esercizi qui dentro
++
++def pow_list(seq):
++    ...
+Index: python/giorno2_3/esercizi/funzioni/README.md
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/python/giorno2_3/esercizi/funzioni/README.md b/python/giorno2_3/esercizi/funzioni/README.md
+new file mode 100644
+--- /dev/null	(date 1737709714282)
++++ b/python/giorno2_3/esercizi/funzioni/README.md	(date 1737709714282)
+@@ -0,0 +1,27 @@
++# Esercizio 2 - Funzioni
++## Premessa
++Scrivere tutto il codice all'interno del modulo [`main.py`](main.py)
++
++## Parte prima
++Implementare una funzione chiamata `mydivmod()` che replichi il funzionamento
++della funzione *builtin* `divmod()` (senza riutilizzarla!). 
++Gestite la divisione per zero *dentro* la funzione.
++
++Per verificare la *signature* della funzione originale, aprire una console Python
++e dare il seguente comando:
++
++```
++>>> help(divmod)
++```
++
++## Parte seconda
++Aprire il file [`tests.py`](tests.py) ed implementare nel file [`main.py`](main.py)
++le funzioni necessarie per fare passare tutti i test.
++
++
++## Parte terza - bonus
++
++Se esegui il file [`crash.py`](crash.py) accade un errore strano...
++
++Usa il debugger per capire cosa sta succedendo e tenta di fare passare
++l'unico controllo `assert`.
+\ No newline at end of file
+Index: python/giorno2_3/esercizi/funzioni/tests.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/python/giorno2_3/esercizi/funzioni/tests.py b/python/giorno2_3/esercizi/funzioni/tests.py
+new file mode 100644
+--- /dev/null	(date 1737709714283)
++++ b/python/giorno2_3/esercizi/funzioni/tests.py	(date 1737709714283)
+@@ -0,0 +1,57 @@
++from main import (
++    pow_list,
++    count_words,
++    reverse_string,
++    factorial,
++    is_palindrome,
++    sum_even_numbers,
++    find_max,
++    count_vowels
++)
++
++assert pow_list([1, 2, 3] == [1, 4, 9]), (
++    "Implement a function that takes a list "
++    "and returns another list with each value raised "
++    "to the power of 2"
++)
++
++assert count_words("hello world"), (
++    "Implement a trivial function that counts the "
++    "number of words in the given string. "
++    "Hint: try executing the following command in the "
++    "Python console: 'hello world'.split(' ')"
++)
++
++assert reverse_string("hello") == "olleh", (
++    "Implement a function that takes a string "
++    "and returns it reversed. For example, 'hello' becomes 'olleh'."
++)
++
++assert factorial(5) == 120, (
++    "Implement a function that computes the factorial of a given number. "
++    "Factorial of n (n!) is the product of all positive integers from 1 to n. "
++    "For example, factorial(5) = 5 * 4 * 3 * 2 * 1."
++)
++
++assert is_palindrome("racecar") == True, (
++    "Implement a function that checks if a given string is a palindrome. "
++    "A palindrome reads the same forwards and backwards, e.g., 'racecar'. "
++    "Hint: try executing the following command in the "
++    "Python console: 'racecar'[::-1]"
++)
++
++assert sum_even_numbers([1, 2, 3, 4, 5]) == 6, (
++    "Implement a function that takes a list of numbers "
++    "and returns the sum of all even numbers in the list."
++)
++
++assert find_max([3, 1, 4, 1, 5]) == 5, (
++    "Implement a function that takes a list of numbers "
++    "and returns the largest number in the list."
++)
++
++assert count_vowels("hello world") == 3, (
++    "Implement a function that takes a string "
++    "and returns the count of vowels ('a', 'e', 'i', 'o', 'u') in it. "
++    "For example, 'hello world' contains 3 vowels."
++)
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"VcsDirectoryMappings\">\r\n    <mapping directory=\"\" vcs=\"Git\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+--- a/.idea/vcs.xml	(revision 5ba08fa853e5c833e2e4e66856622030f454065a)
++++ b/.idea/vcs.xml	(date 1737707745148)
+@@ -1,5 +1,12 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="GitSharedSettings">
++    <option name="FORCE_PUSH_PROHIBITED_PATTERNS">
++      <list>
++        <option value="main" />
++      </list>
++    </option>
++  </component>
+   <component name="VcsDirectoryMappings">
+     <mapping directory="" vcs="Git" />
+   </component>
