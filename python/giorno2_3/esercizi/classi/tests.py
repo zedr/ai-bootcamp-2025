@@ -33,4 +33,4 @@ assert italy.pop == 1_070_000
 
 # La correttezza della risposta dipende ovviamente
 # dalla quantità e qualità di dati che abbiamo.
-assert italy.most_populuous_city.name == "Palermo"
+assert italy.most_populous_city.name == "Palermo"
