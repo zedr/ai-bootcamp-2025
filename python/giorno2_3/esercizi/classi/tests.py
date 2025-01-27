@@ -16,7 +16,7 @@ calabria = Region("Calabria")
 calabria.add(City("Reggio Calabria", pop=170_000))
 
 italy.add(calabria)
-assert italy.pop == 1_170_000
+assert italy.pop == 1_070_000
 
 # La correttezza della risposta dipende ovviamente
 # dalla quantità e qualità di dati che abbiamo.
