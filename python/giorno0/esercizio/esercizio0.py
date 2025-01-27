@@ -5,7 +5,7 @@ print("ciao, mondo!\n")
 somma= 40+2
 print("il risultato della somma dei numeri 40 e 2 è: ", somma ,"\n")
 # 3. il risultato della divisione del numero 40 per il numero 0 ;)
-divisione_float = 40/0     """ZeroDivisionError: division by zero"""
+divisione = 40/0     """ZeroDivisionError: division by zero"""
 print("il risultato della divisione del numero 40 per il numero 0 è: ", divisione, "\n")
 # 3.1 approssimo lo zero per avere un risultato stampabile rispettando i limiti computazionali
 divisione_1 = 40/(10**(-300))
