@@ -1,6 +1,7 @@
  - Algoritmo: Una sequenza di passaggi per risolvere un problema o completare un compito.
  - Argomento: in Python, un oggetto fornito a una funzione quando viene chiamata, ovvero il suo Input.
  - Assegnare: creare un nuovo Nome nel Namespace locale collegandolo ad un oggetto tramite l'operatore `=` .
+ - API (Application Programming Interface): l'interfaccia esposta da un oggetto o una libreria.
  - Blocco: Un gruppo di istruzioni indentate insieme per definire una specifica struttura di codice, come il corpo di un ciclo o di una funzione.
  - Bug: Un errore o difetto nel codice che causa comportamenti non previsti o crash.
  - Commento: Testo non eseguibile in un programma (indicato con `#`) usato per spiegare il codice.
@@ -23,6 +24,7 @@
  - Operatore: Un simbolo utilizzato per eseguire operazioni, come `+` per l'addizione o `==` per la comparazione.
  - Parametro: Una variabile definita nella firma di una funzione che accetta valori in ingresso.
  - Ricorsione: Una tecnica in cui una funzione richiama se stessa per risolvere parti più piccole di un problema.
+ - Rifattorizzazione (Refactoring): migliorare il codice senza cambiarne il comportamento.
  - Return: Un'istruzione in una funzione che restituisce un risultato al chiamante.
  - Scope: Il perimetro all'interno di un programma in cui un nome è accessibile.
  
