@@ -1,0 +1,9 @@
+Name,Surname,Date of Birth,Date of Death,Major Contribution to Computer Science
+Ada,Lovelace,1815-12-10,1852-11-27,"Wrote the first algorithm intended for implementation on Charles Babbage’s Analytical Engine, making her the first computer programmer."
+Grace,,Hopper,1906-12-09,1992-01-01,"Developed the first compiler (A-0 System) and was instrumental in the development of COBOL, an early programming language."
+Margaret,Hamilton,1936-08-17,,"Led the team that developed the onboard software for NASA’s Apollo missions, pioneering software engineering as a discipline."
+Radia,Perlman,1951-01-01,,"Invented the Spanning Tree Protocol (STP), a fundamental network protocol for ensuring loop-free data transmission."
+Barbara,Liskov,1939-11-07,,"Developed the Liskov Substitution Principle and made key contributions to programming language design and software engineering."
+Frances,Allen,1932-08-04,2020-08-04,"A pioneer in optimizing compilers, she contributed significantly to program optimization and parallel computing."
+Shafi,Goldwasser,1958-02-14,,"Co-inventor of probabilistic encryption and a key figure in cryptographic complexity theory."
+Fei-Fei,Li,1976-04-06,,"A leading researcher in artificial intelligence and computer vision, instrumental in the development of ImageNet."

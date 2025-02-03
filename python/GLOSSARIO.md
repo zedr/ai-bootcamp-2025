@@ -25,9 +25,9 @@
  - Oggetto: Un'istanza di una classe, che rappresenta una struttura dati con comportamenti associati.
  - Operatore: Un simbolo utilizzato per eseguire operazioni, come `+` per l'addizione o `==` per la comparazione.
  - Parametro: Una variabile definita nella firma di una funzione che accetta valori in ingresso.
+ - Pacchetto: Un insieme di moduli Python, installabile mediante `pip`.
  - Ricorsione: Una tecnica in cui una funzione richiama se stessa per risolvere parti più piccole di un problema.
  - Rifattorizzazione (Refactoring): migliorare il codice senza cambiarne il comportamento.
  - Return: Un'istruzione in una funzione che restituisce un risultato al chiamante.
  - Scope: Il perimetro all'interno di un programma in cui un nome è accessibile.
- - 
  
