@@ -28,7 +28,6 @@ cur.execute('''UPDATE users
 SET age = '99' 
 WHERE id = 1
 ''')
-conn.commit()
 
 #cur.execute("DELETE FROM users WHERE name = ?", ('Alice', ))
 #conn.commit()
