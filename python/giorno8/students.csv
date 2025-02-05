@@ -1,0 +1,10 @@
+id;first_name;last_name;year_of_birth;gender;email;assignments
+1;John;Doe;2000;M;jdoe@example.com;5
+2;Jane;Smith;2001;F;jsmith@example.com;2
+3;Sarah;Thomas;2000;F;sthomas@example.com,1
+4;Frank;Brown;2000;M;fbrown@example.com;6
+8;Mike;Davis;1999;M;mdavis@example.com;4
+9;Jennifer;Wilson;2002;F;jwilson@example.com;3
+10;Jessica;Garcia;2000;F;jgarcia@example.com;4
+11;Jane;Clark;2001;F;jclark@example.com;8
+12;Bob;Lopez;2000;M;blopez@example.com;1
