@@ -1,4 +1,5 @@
 # Esercizio per il giorno mercoledì 12
 
-Analizzare il dataset [HollywoodMovies.csv](HollywoodMovies.csv) con Jupyter, Pandas, Matplotlib, e Seaborn e produrre
-un'analisi con almeno 3 insight (e.g. numero di film usciti per anno).
+Analizzare il dataset [HollywoodMovies.csv](HollywoodMovies.csv) con Jupyter, Pandas, Matplotlib, e Seaborn.
+Produrre un notebook con almeno 3 analisi sui dati (e.g. numero di film usciti per anno).
+Ogni analisi deve usare un tipo di grafico diverso tra quelli presentati (e.g. a barre, a torta, etc.).
